@@ -10,9 +10,14 @@ a{
 .card{
     width: 18rem;
     margin-left: 1vw;
-    margin-top: 1vh;
+    margin-top: 10vh;
 }
 
 img{
     object-fit: cover;
+}
+
+
+button{
+    margin-top: 1vh;
 }
