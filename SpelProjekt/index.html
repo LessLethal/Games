@@ -14,11 +14,67 @@
     <link rel="stylesheet" href="index.js" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="" alt=""></a>
+    <nav class="navbar navbar-expand navbar-light bg-primary ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+
+        <div class="navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="navbar-item">
+              <a class="nav-link active" href="#">About us</a>
+            </li>
+            <li>
+              <a class="nav-link active" href="#">Testos</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
+
+    <div class="wrapper">
+      <nav id="sidebar">
+        <div class="sidebar-header">
+          <h3>Menu</h3>
+        </div>
+        <button id="sidebarCollapse" class="btn btn-primary">Games</button>
+      </nav>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="card col-1">
+        <img src="" class="card-img-top" alt="A Gameboard with tik tak toe" />
+        <div class="card-body">
+          <h4 class="card-title">TikTakToe</h4>
+          <p class="card-text">
+            This is a game where you and an opponent have to get a row and i
+            cant bother to explain it
+          </p>
+          <a href="#" class="btn btn-warning">Go</a>
+        </div>
+      </div>
+      <div class="card col-1">
+        <img src="" class="card-img-top" alt="Fisk med vingar" />
+        <div class="card-body">
+          <h4 class="card-title">Kanske Flappy bird</h4>
+          <p class="card-text">
+            This is a game where you rage at a bird, you need to tap the screen
+            to make it fly.
+          </p>
+          <a href="#" class="btn btn-warning">Go</a>
+        </div>
+      </div>
+      <div class="card col-1">
+        <img src="" class="card-img-top" alt="En sten, sax och en påse" />
+        <div class="card-body">
+          <h4 class="card-title">sten sax och en påse</h4>
+          <p class="card-text">
+            This is a game where you and an opponent shake hands and have to counter eachother
+          </p>
+          <a href="#" class="btn btn-warning">Go</a>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
