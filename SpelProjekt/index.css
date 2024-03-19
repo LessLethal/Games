@@ -6,3 +6,13 @@ body{
 a{
     text-decoration: none;
 }
+
+.card{
+    width: 18rem;
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+
+img{
+    object-fit: cover;
+}
