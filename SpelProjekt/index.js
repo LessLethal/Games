@@ -1,10 +1,14 @@
-document.addEventListener( function() {
-    const sidebarToggleBtn = document.getElementById('sidebarCollapse');
-    const sidebar = document.getElementById('sidebar');
+let rutor = ["", "", "", "", "", "", "", "", ""];
 
-    sidebarToggleBtn.addEventListener('click', function() {
-        sidebar.classList.toggle('active');
-    });
-});
+let Player = "X";
 
+
+function endGame(){
+
+}
+
+function win(){
+
+    let rutor = ["", "", "", "", "", "", "", "", ""];
+}
 
