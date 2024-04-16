@@ -21,3 +21,9 @@ img{
 button{
     margin-top: 1vh;
 }
+
+
+td{
+    cursor: pointer;
+    user-select: none;
+}
