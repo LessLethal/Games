@@ -34,18 +34,35 @@ button {
   cursor: pointer;
 }
 
-td {
-  cursor: pointer;
-  user-select: none;
-  padding: none;
-}
 
 button:hover {
   transform: scale(1.1);
   transition: 0.3s;
+  
 }
 
-td {
-  height: 20vh;
-  width: 20vw;
+
+
+.tbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.table > :not(caption) > * > * {
+  padding-top: 50px;
+}
+
+.cell {
+  cursor: pointer;
+  user-select: none;
+  padding: none;
+
+  height: 150px;
+  width: 100px;
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 0;
 }
