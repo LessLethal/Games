@@ -17,27 +17,9 @@ img {
   object-fit: cover;
 }
 
-button {
-  margin-top: 1vh;
-  padding: 10px 20px;
-  background-image: linear-gradient(
-    45deg,
-    #a67c00 0%,
-    #ffbf00 30%,
-    #ffdc73 35%,
-    #ffbf00 70%,
-    #ffbf00 0%,
-    #a67c00 1000%
-  );
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
 button:hover {
   transform: scale(1.1);
-  transition: 0.3s;
+  transition: 0.3s ease;
   
 }
 
